@@ -12,16 +12,15 @@ function Home() {
                     <div className="home_content">
                         <div className="home_data">
                             <h3 className="home_subtitle">
-                                Hi, <span>I'm</span>
+                                Welcome,
                             </h3>
 
-                            <h1 className="home_title">Hüseyin</h1>
+                            <h1 className="home_title">I'm Hüseyin</h1>
 
-                            <h3 className="home_education">Front-End Developer</h3>
+                            <h3 className="home_education">Front End Developer <br />/ Ui & Ux Designer</h3>
 
                             <p className="home_descripton">
-                                Hi, I'm Hüseyin Aydın. I'm a front-end developer based in
-                                Istanbul. I'm passionate about both coding and web
+                                I'm passionate about both coding and web
                                 design, and I love creating responsive and user-friendly web
                                 pages.
                             </p>
