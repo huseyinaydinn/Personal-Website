@@ -4,18 +4,29 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { useRef } from 'react';
 
 function Navbar() {
+
+    /* menu responsive settings */
     const ref = useRef(null);
-
-
     const navToggle = () => {
         const navMenu = ref.current
         navMenu.classList.add('show-menu')
     }
-
     const navClose = () => {
         const navMenu = ref.current
         navMenu.classList.remove('show-menu')
     }
+
+    /* blur header settings */
+
+
+    useEffect(() => {
+        const header = document.getElementById("header");
+        if (scrollY >= 50) {
+            header.classList.add("blur-header");
+        } else {
+            header.classList.remove("blur-header");
+        }
+    }, [scrollY]);
 
 
 
