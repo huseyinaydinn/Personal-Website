@@ -17,17 +17,12 @@ function Navbar() {
     }
 
     /* blur header settings */
-
-
-    useEffect(() => {
-        const header = document.getElementById("header");
-        if (scrollY >= 50) {
-            header.classList.add("blur-header");
-        } else {
-            header.classList.remove("blur-header");
-        }
-    }, [scrollY]);
-
+    window.addEventListener('scroll', () => {
+        const header = document.getElementById('header')
+        scrollY >= 50
+            ? header.classList.add('blur-header')
+            : header.classList.remove('blur-header');
+    })
 
 
 
