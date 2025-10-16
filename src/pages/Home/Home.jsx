@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 import HomeBlob from "./HomeBlob";
@@ -17,7 +16,7 @@ function Home() {
 
                             <h1 className="home_title">I'm Hüseyin</h1>
 
-                            <h3 className="home_education">Front End Developer <br />/ Ui & Ux Designer</h3>
+                            <h3 className="home_education">Frontend Developer</h3>
 
                             <p className="home_descripton">
                                 I'm passionate about both coding and web
@@ -40,7 +39,7 @@ function Home() {
                             </a>
 
                             <a
-                                href="https://wa.me/905442706121"
+                                href="https://wa.me/905469928664"
                                 target="_blank"
                                 className="home_social-link"
                                 rel="noopener noreferrer"

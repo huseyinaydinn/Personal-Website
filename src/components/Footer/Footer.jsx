@@ -27,7 +27,7 @@ function Footer() {
                     </a>
 
                     <a
-                        href="https://wa.me/905442706121"
+                        href="https://wa.me/905469928664"
                         target="_blank"
                         className="footer_social-link"
                         rel="noopener noreferrer"
